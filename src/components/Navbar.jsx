@@ -1,14 +1,16 @@
+import React from 'react'
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
+
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
-  };
+
   return (
     <nav
       className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b
@@ -74,6 +76,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+  }
+}
 
-export default Navbar;
+export default Navbar
