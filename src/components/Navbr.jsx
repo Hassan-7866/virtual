@@ -8,7 +8,7 @@ const Navbr = () => {
 
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
-    const toggleNavbar = () => {
+    const toggleNavbr = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
 
   return (
@@ -40,7 +40,7 @@ const Navbr = () => {
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
-            <button onClick={toggleNavbar}>
+            <button onClick={toggleNavbr}>
               {mobileDrawerOpen ? <X/> : <Menu />}
             </button>
           </div>
