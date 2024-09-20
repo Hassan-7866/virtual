@@ -4,13 +4,12 @@ import HeroSection from "./components/HeroSection";
 import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import Navbr from "./components/Navbr";
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <Navbr/>
+      <Navbar/>
       <div className="max-w-7xl mx-auto pt-20 px-6">
-        
         <HeroSection />
         <FeatureSection />
         <Workflow />

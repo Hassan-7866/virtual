@@ -9,7 +9,7 @@ const HeroSection = () => {
     {" "}
     <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text"> for developers</span>
     <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-    Lorem, ipsum dolor sit amet consectetur 
+    This is world of VR, ipsum dolor sit amet consectetur 
     adipisicing elit. Et minus quod voluptate 
     officiis harum earum, aliquam dolore ullam 
     dolorem in? In ullam ea amet facere!
