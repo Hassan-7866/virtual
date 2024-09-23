@@ -18,7 +18,7 @@ const HeroSection = () => {
     <a href="#" className="bg-gradient-to-r from-orange-500 to bg-orange-800 py-3 px-4 mx-3 rounded-md">
     Start for free
     </a>
-    <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+    <a href="#" className="py-3 px-4 mx-3 rounded-md border hover:bg-gradient-to-r from-orange-500 to-orange-800">
     Documentation
     </a>
     </div>
